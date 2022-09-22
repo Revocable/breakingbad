@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;1,600&display=swap');
+
+body{
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+    font-size:larger;
+}
+
+h1{
+    text-align: center;
+    font-size: xxx-large;
+}
+
+header{
+    text-align: center;
+    margin: auto;
+    padding-top: 35px;
+    width: 1fr;
+    height: 100px;
+    background-color: #1f693e;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    grid-template-rows: 300px 300px 300px 300px;
+}
+
+
+
+.item1:hover .text{
+    opacity: 1;
+    backdrop-filter: blur(2.3px);
+    background-color:rgba(31, 105, 62,0.3) ;
+}
+
+.item2:hover .text{
+    opacity: 1;
+    backdrop-filter: blur(2.3px);
+    background-color:rgba(31, 105, 62,0.3) ;
+}
+
+.item3:hover .text{
+    opacity: 1;
+    backdrop-filter: blur(2.3px);
+    background-color:rgba(31, 105, 62,0.3) ;
+}
+
+.item4:hover .text{
+    opacity: 1;
+    backdrop-filter: blur(2.3px);
+    background-color:rgba(31, 105, 62,0.3) ;
+}
+
+.text{
+    font-size: x-large;
+    font-weight:bold;
+    opacity: 0;
+    color: white;
+    padding-top: 150px;
+    transition: all 0.5s;
+    height: 250px;
+}
+
+.item1{
+    border: 20px solid white;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    background-image: url(../assets/walter_white.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+
+.item2{
+    border: 20px solid white;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    background-image: url(../assets/jesse.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item3{
+    border: 20px solid white;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    background-image: url(../assets/gus_540x720.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item4{
+
+    border: 20px solid white;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    background-image: url(../assets/saul_goodman.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+a{
+    text-decoration: none;
+    color: #1f693e;
+}
+
+p{
+    margin-left: 15%;
+    margin-right: 15%;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+@media screen and (max-width: 600px) 
+{
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+        grid-template-rows: 300px 300px 300px 300px;
+    }
+    
+    
+}

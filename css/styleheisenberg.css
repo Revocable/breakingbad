@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;1,600&display=swap');
+
+
+body{
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+    font-size:larger;
+}
+
+.logo{
+    margin-top: -50px;
+}
+
+header{
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 25px;
+    width: 1fr;
+    height: 100px;
+    background-color: #1f693e;
+}
+
+.home{
+    color: white;
+    text-align: left;
+
+}
+
+a{
+    text-decoration: none;
+    color: #1f693e;
+}
+
+.container{
+    margin: 0 auto;
+    display:grid;
+    width: 1024px;
+    height: 900px;
+    grid-template-rows: 100px 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item1{
+    grid-row: 1/2;
+    grid-column: 1/4;
+    text-align: center;
+    border: 20px solid rgb(255, 255, 255);
+}
+
+.item2{
+    grid-row: 2/3;
+    grid-column:1/2;
+    border: 20px solid rgb(255, 255, 255);
+    text-align: justify;
+    font-size: larger;
+    border-radius: 20px;
+    
+
+}
+
+table{
+    font-size:18px;
+    text-align: justify;
+    line-height: 25px;
+    border: 20px solid rgb(255, 255, 255);
+}
+
+
+.item3{
+    background-size: cover;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    border-radius: 30px;
+    background-image: url(../assets/heisenberg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item4{
+    grid-row: 2/3;
+    grid-column: 3/3;
+}
+
+.item5{
+    padding-top: 20px;
+    grid-row: 3/3;
+    grid-column: 1/4;
+}
